@@ -1,0 +1,50 @@
+/* Group */
+.group {
+    transition: background-color 0.3s ease;
+    height: 100%;
+}
+
+.group:hover {
+    background-color: #294444;
+    opacity: 0.8;
+}
+
+/* Menu */
+.playlist-menu {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    z-index: 9999;
+    width: 150px;
+    background-color: #333; 
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    transition: opacity 0.3s ease;
+    
+}
+  
+/* Menu item */
+.menu-item {
+    display: block;
+    padding: 8px 0;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    z-index: 9999;
+    transition: 0.3s ease;
+    
+}
+  
+/* Divider */
+.divider {
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5); /* Màu trắng */
+    margin: 8px 0;
+}
+  
+/* Active menu item */
+.menu-item:hover {
+    background-color: #535252;
+    padding: 8px;
+}

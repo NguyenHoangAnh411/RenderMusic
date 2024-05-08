@@ -1,0 +1,40 @@
+/* Playlist.css */
+
+.playlist-container {
+    position: relative;
+}
+
+.playlist-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px; /* Bo tròn các góc của ảnh */
+}
+
+.playlist-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    width: 30%;
+}
+.playlist-details p{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.playlist-details h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin-left: 3%;
+}
+#song-playlist {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 1%;
+}

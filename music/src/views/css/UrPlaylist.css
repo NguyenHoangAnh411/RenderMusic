@@ -1,0 +1,36 @@
+.urplaylist-container {
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #727070, #2b2a2a);
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.urplaylist-info {
+    display: flex;
+    align-items: center;
+}
+
+.urplaylist-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 3%
+}
+
+.urplaylist-details {
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    margin-left: 3%;
+}
+.urplaylist-details p{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(197, 194, 194);
+}
+.urplaylist-details h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}

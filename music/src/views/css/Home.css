@@ -1,0 +1,18 @@
+#song-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    grid-gap: 10px;
+    color: black;
+  }
+  
+  #song-grid .text-link {
+    cursor: pointer;
+  }
+  
+  #song-grid .text-link:hover {
+    text-decoration: underline;
+  }
+  
+  #see-all {
+    cursor: pointer;
+  }

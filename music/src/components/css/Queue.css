@@ -1,0 +1,42 @@
+.queue-container {
+    width: 100%;
+    overflow: hidden;
+    background-color:#3a3a3a;
+    height: 100%;
+    margin-left: 5px;
+    border-radius: 10px;
+
+  }
+  
+
+  .queue-list {
+    padding: 10px;
+    overflow-y: auto;
+    height: 100%;
+  }
+  
+  .queue-song {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .queue-song:last-child {
+    border-bottom: none;
+  }
+  
+  .queue-song:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .queue-song-title {
+    font-weight: bold;
+  }
+  
+  .queue-song-artist {
+    color: #888;
+  }
+  
+  .queue-song-index {
+    margin-right: 5px;
+  }
+  

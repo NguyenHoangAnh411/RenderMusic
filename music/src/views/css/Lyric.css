@@ -1,0 +1,9 @@
+.lyric-line {
+    display: block;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.lyric-line:hover {
+    color: #949090;
+}

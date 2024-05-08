@@ -1,0 +1,28 @@
+.search-container {
+    position: relative;
+    max-width: 22.75rem;
+    margin: 2%;
+    
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 0.5rem 2.5rem 0.5rem 3rem;
+    border-radius: 3px;
+    background-color: #474646;
+    font-size: 1rem;
+    outline: none;
+    color: rgb(240, 233, 233);
+  }
+  
+  .search-button {
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: black;
+  }
+  
