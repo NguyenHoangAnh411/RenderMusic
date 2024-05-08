@@ -53,10 +53,7 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^8.2.0",
-    "eslint-plugin-react": "^7.28.0",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7",
+    "concurrently": "^8.2.2"
   }
-  
 }
