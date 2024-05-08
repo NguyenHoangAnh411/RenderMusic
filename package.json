@@ -41,6 +41,7 @@
     "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "@babel/plugin-proposal-private-property-in-object": "^7.16.7"
   }
 }
