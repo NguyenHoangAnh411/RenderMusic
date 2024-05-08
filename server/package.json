@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "react-scripts start"
   },
   "author": "",
   "license": "ISC",
